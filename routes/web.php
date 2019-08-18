@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('demo', function () {
+    return view('theme.backoffice.layouts.demo');
+ });
