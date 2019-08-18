@@ -20,5 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('demo', function () {
-    return view('theme.backoffice.layouts.demo');
+    return view('theme.layouts.demo');
  });
