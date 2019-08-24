@@ -37,7 +37,7 @@
                         <p class="card-text">Este CRUD tiene paginación de 100 Registros
                         </p>
 
-                        <a class="btn btn-success mb-3" href="#">Agregar Conductor</a>
+                        <a class="btn btn-success mb-3" href="/crearConductor">Agregar Conductor</a>
 
                         @if (Session::has('message'))
                         <div class="alert alert-warning">{{ Session::get('message') }}</div>

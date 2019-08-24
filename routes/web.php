@@ -37,8 +37,24 @@ Route::get('crearConductor', function () {
     return view('pages.mobilize.conductor.create');
  });
 
+// -> LUGAR
+Route::get('crearLugar', function () {
+    return view('pages.mobilize.lugar.create');
+ });
+Route::get('verLugar', function () {
+    return view('pages.mobilize.lugar.index');
+ });
+
+// -> TAG
+Route::get('crearTag', function () {
+    return view('pages.mobilize.tag.create');
+ });
 
  // -> VIAJES
 Route::get('crearViaje', function () {
     return view('pages.mobilize.viaje.create');
+ });
+
+Route::get('verViaje', function () {
+    return view('pages.mobilize.viaje.index');
  });

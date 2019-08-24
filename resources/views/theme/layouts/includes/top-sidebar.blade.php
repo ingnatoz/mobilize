@@ -18,6 +18,8 @@
                 </li>
                 <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Ver Viajes</a>
                 </li>
+                <li data-menu=""><a class="dropdown-item" href="/crearTag" data-toggle="dropdown">Subir Excel de Tags</a>
+                </li>
             </div>
             </ul>
         </li>
@@ -34,9 +36,9 @@
         <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="index.html" data-toggle="dropdown"><i class="ft-home"></i><span>LUGARES</span></a>
             <ul class="dropdown-menu">
             <div class="arrow_box">
-                <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Crear Lugar</a>
+                <li data-menu=""><a class="dropdown-item" href="crearLugar" data-toggle="dropdown">Crear Lugar</a>
                 </li>
-                <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Ver Lugares</a>
+                <li data-menu=""><a class="dropdown-item" href="verLugar" data-toggle="dropdown">Ver Lugares</a>
                 </li>
             </div>
             </ul>
