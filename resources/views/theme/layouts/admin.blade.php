@@ -14,7 +14,7 @@
     <title>@yield('title')</title>
     @include('theme.layouts.includes.head')
   </head>
-  <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-gradient-x-purple-blue" data-col="2-columns">
+  <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-gradient-x-orange-yellow" data-col="2-columns">
       @include('theme.layouts.includes.header')
       @include('theme.layouts.includes.top-sidebar')
 

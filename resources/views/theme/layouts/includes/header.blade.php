@@ -23,11 +23,18 @@
                 <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">             <span class="avatar avatar-online"><img src="/assets/backoffice/app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"></span></a>
               <div class="dropdown-menu dropdown-menu-right">
                 <div class="arrow_box_right">
-                    <a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="/assets/backoffice/app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1">John Doe</span></span></a>
+                    <a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="/assets/backoffice/app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1">{{ Auth::user()->name }}</span></span></a>
+                  {{-- <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="user-profile.html"><i class="ft-user"></i></a> --}}
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="user-profile.html"><i class="ft-user"></i> Edit Profile</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="login.html"><i class="ft-power"></i> Logout</a>
+                  <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                  document.getElementById('logout-form').submit();">
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                      <i class="ft-power">
+                      </i> Cerrar Sesión
+                  </a>
                 </div>
               </div>
             </li>

@@ -22,3 +22,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('demo', function () {
     return view('theme.layouts.demo');
  });
+
+// -> CAMION
+
+Route::get('camionCreacion', function () {
+    return view('pages.mobilize.camion.create');
+ });
