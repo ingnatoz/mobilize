@@ -24,7 +24,21 @@ Route::get('demo', function () {
  });
 
 // -> CAMION
-
-Route::get('camionCreacion', function () {
+Route::get('crearCamion', function () {
     return view('pages.mobilize.camion.create');
+ });
+
+// -> CONDUCTOR
+Route::get('verConductor', function () {
+    return view('pages.mobilize.conductor.index');
+ });
+
+Route::get('crearConductor', function () {
+    return view('pages.mobilize.conductor.create');
+ });
+
+
+ // -> VIAJES
+Route::get('crearViaje', function () {
+    return view('pages.mobilize.viaje.create');
  });
