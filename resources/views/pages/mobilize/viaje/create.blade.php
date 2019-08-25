@@ -357,7 +357,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Verificación</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Verificación" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -369,7 +369,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">I. Mecanica</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="I. Mecanica" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -381,7 +381,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Pte. USA</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Pte. USA" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -393,7 +393,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Disel</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Disel" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -404,7 +404,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Casetas</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Casetas" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -415,7 +415,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Transferencia</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Transferencia" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -426,7 +426,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Lav Caja</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Lav Caja" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -437,7 +437,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Lav Camión</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Lav Camión" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -448,7 +448,7 @@
                                         <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Comisión</p>
                                             <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
+                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="Comisión" name="projectname">
                                                 <div class="form-control-position">
                                                     <i class="la la-briefcase"></i>
                                                 </div>
@@ -462,7 +462,7 @@
                                                 <div data-repeater-item>
                                                     <div class="row mb-1">
                                                         <div class="col-9 col-xl-10">
-                                                            <input type="text" class="form-control" placeholder="Vales Diesel" name="phone">
+                                                            <input type="text" class="form-control" placeholder="Otros" name="phone">
                                                         </div>
                                                         <div class="col-2 col-xl-1">
                                                             <button type="button" data-repeater-delete class="btn btn-icon btn-danger mr-1">
@@ -480,22 +480,25 @@
                                     </div>
 
                                     <div class="col-md-4">
-                                        <div class="form-group">
+                                            <div class="form-group">
                                                 <p class="text-bold-600 font-medium-2 text-danger text-center">Sueldo</p>
-                                            <div class="position-relative has-icon-left">
-                                                <input type="text" id="timesheetinput2" class="form-control" placeholder="C. Porte" name="projectname">
-                                                <div class="form-control-position">
-                                                    <i class="la la-briefcase"></i>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">$</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="Sueldo" aria-label="Amount (to the nearest dollar)" name="rateperhour">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">.00</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
                                     <div class="col-md-8">
                                         <div class="form-group">
                                             <p class="text-bold-600 font-medium-2 text-danger text-center">Notificar Reparaciones y Servicios de Unidad</p>
 										<div class="position-relative has-icon-left">
-			                            	<textarea id="timesheetinput7" rows="5" class="form-control" name="notes" placeholder="notes"></textarea>
+			                            	<textarea id="timesheetinput7" rows="5" class="form-control" name="notes" placeholder="Notificar Reparaciones y Servicios de Unidad"></textarea>
 				                            <div class="form-control-position">
 				                                <i class="ft-file"></i>
 				                            </div>
