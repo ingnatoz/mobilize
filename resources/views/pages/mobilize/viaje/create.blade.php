@@ -22,7 +22,7 @@
 @section('content')
 <section id="basic-form-layouts">
 <div class="row match-height justify-content-md-center">
-    <div class="col-xl-8 col-lg-8 col-md-10">
+    <div class="col-xl-9 col-lg-9 col-md-11">
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title" id="basic-layout-icons">Crear Viaje</h4>
@@ -299,7 +299,7 @@
                                                     <div class="col-9 col-xl-10">
                                                         <input type="text" class="form-control" placeholder="Vales Diesel" name="phone">
                                                     </div>
-                                                    <div class="col-2 col-xl-1">
+                                                    <div class="">
                                                         <button type="button" data-repeater-delete class="btn btn-icon btn-danger mr-1">
                                                             <i class="ft-x"></i>
                                                         </button>
@@ -320,10 +320,13 @@
                                         <div data-repeater-list="repeater-list">
                                             <div data-repeater-item>
                                                 <div class="row mb-1">
-                                                    <div class="col-9 col-xl-10">
-                                                        <input type="text" class="form-control" placeholder="Vales Diesel" name="phone">
+                                                    <div class="col-4 col-xl-5">
+                                                        <input type="text" class="form-control" placeholder="Refaccion" name="phone">
                                                     </div>
-                                                    <div class="col-2 col-xl-1">
+                                                    <div class="col-4 col-xl-5">
+                                                        <input type="text" class="form-control" placeholder="Costo" name="phone">
+                                                    </div>
+                                                    <div>
                                                         <button type="button" data-repeater-delete class="btn btn-icon btn-danger mr-1">
                                                             <i class="ft-x"></i>
                                                         </button>
@@ -461,10 +464,13 @@
                                             <div data-repeater-list="repeater-list">
                                                 <div data-repeater-item>
                                                     <div class="row mb-1">
-                                                        <div class="col-9 col-xl-10">
-                                                            <input type="text" class="form-control" placeholder="Otros" name="phone">
+                                                        <div class="col-4 col-xl-5">
+                                                            <input type="text" class="form-control" placeholder="Nombre" name="phone">
                                                         </div>
-                                                        <div class="col-2 col-xl-1">
+                                                        <div class="col-4 col-xl-5">
+                                                            <input type="text" class="form-control" placeholder="Costo" name="phone">
+                                                        </div>
+                                                        <div class="">
                                                             <button type="button" data-repeater-delete class="btn btn-icon btn-danger mr-1">
                                                                 <i class="ft-x"></i>
                                                             </button>
