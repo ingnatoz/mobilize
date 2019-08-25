@@ -16,7 +16,7 @@
             <div class="arrow_box">
                 <li data-menu=""><a class="dropdown-item" href="/crearViaje " data-toggle="dropdown">Crear Vieaje</a>
                 </li>
-                <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Ver Viajes</a>
+                <li data-menu=""><a class="dropdown-item" href="/verViaje" data-toggle="dropdown">Ver todos Viajes</a>
                 </li>
                 <li data-menu=""><a class="dropdown-item" href="/crearTag" data-toggle="dropdown">Subir Excel de Tags</a>
                 </li>
